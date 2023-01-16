@@ -1,0 +1,41 @@
+canvas{
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+@font-face {
+   font-family: Hacked;
+   src: url(https://hackedfont.com/HACKED.ttf);
+   
+}
+
+main{
+   position: absolute;
+   padding: 10px;
+   color: #f2f2f2;
+   font-size: 30px;
+   text-align: center;
+   font-family:Hacked ;
+   width: 100%;
+   height: 100%;
+   
+}
+
+main p{
+   margin-top: 200px;
+}
+.navbarnew {
+   
+   background-color:none !important ;
+   overflow: hidden;
+   width: 100% !important;
+ }
+ .navbarnew a {
+   
+   color: #f2f2f2 !important;
+   text-align: right;
+   padding-right: 14px ;
+   text-decoration: none;
+   font-size:20px;
+ }
